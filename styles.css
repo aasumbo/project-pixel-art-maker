@@ -7,20 +7,32 @@ h1 {
     font-family: Garamond;
     font-size: 50px;
     margin: 0.2em;
+    text-shadow:2px 2px;
+    color:purple;
 }
 
 h2 {
     margin: 1em 0 0.25em;
+
+
 }
 
 h2:first-of-type {
     margin-top: 0.5em;
+    text-shadow:2px 2px;
+    color:purple;
+}
+
+div{
+  box-shadow:4px 4px;
+  background-color:chartreuse;
 }
 
 table,
 tr,
 td {
     border: 1px solid black;
+    border-radius:10px;
 }
 
 table {
@@ -33,11 +45,26 @@ tr {
     height: 20px;
 }
 
-
 td {
     width: 20px;
 }
 
 input[type=number] {
     width: 6em;
+}
+#submit:hover {
+    border-radius:8px;
+    font-family: Garamond;
+    font-size: 15px;
+    color:blue;
+}
+#inputHeight{
+  border-radius:8px;
+  font-family: Garamond;
+  font-size: 15px;
+}
+#inputWeight{
+  border-radius:8px;
+  font-family: Garamond;
+  font-size: 15px;
 }
