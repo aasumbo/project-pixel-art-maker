@@ -20,12 +20,12 @@ h2 {
 h2:first-of-type {
     margin-top: 0.5em;
     text-shadow:2px 2px;
-    color:lime;
+    color:purple;
 }
 
 div{
   box-shadow:4px 4px;
-  background-color:chartreuse;
+  /* background-color:chartreuse; */
 }
 
 table,
@@ -68,3 +68,20 @@ input[type=number] {
   font-family: Garamond;
   font-size: 15px;
 }
+.bg-img {
+    /* The image used */
+    background-image: url("background-design_1297-84.jpg");
+
+    min-height: 1000px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .placeholder{
+  width:300px;
+  border: 3px dashed ;
+  padding: 1em;
+  border-radius:25px;
+} */
